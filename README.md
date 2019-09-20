@@ -1,4 +1,6 @@
 # PROJECT PLANNING
+## Overview
+The general idea is that users can use this app as a means of uploading, storing, and viewing their comic books. Simple, right? Seemingly. Though the MVP seems pretty to the point and achievable, the more complex things lay in the stretch goals in trying to provide users with new and interesting ways to read and interact with their comic books.
 
 
 ## Component Tree
