@@ -11,7 +11,16 @@ Alright, let's try this again. Rather than make a digital comic book platform (f
 ![alt text](./assets/img/component_tree.jpg)
 
 ### Component Breakdown
-* **App:** Single common parent/ancestor for the entire application. Will hold state or Redux store and handle routing.
+* **APP:** Single common parent/ancestor for the entire application. Will hold state or Redux store and handle routing.
+* **USER:** Container for User info and card(s).
+* **CONTACTS:** Container for contact info and card(s)
+* **CARDS:** Lists all cards belonging to user or contacts.
+* **SCAN CARDS:** Adds new contact card to local storage and Contacts/Cards component list.
+* **NEW CARD:** Add new user card to local storage and User/Cards component list.
+* **CARD:** Displays complete info for individual contact or user card.
+* **EDIT CARD:** Allows the user to edit card info or delete existing cards.
+* **QR CODE:** Allows user card to be scanned by other devices. 
+
 
 ## Resources
 * **Chart Making:** https://www.draw.io/
