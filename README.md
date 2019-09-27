@@ -5,6 +5,8 @@ Alright, let's try this again. Rather than make a digital comic book platform (f
 ## Primary Technologies
 * **React Native:** The primary library for creating this mobile app.
 * **React:** Possible use for prototyping outside of mobile environment.
+* **Redux:** Will use for managing local state and storage.
+* **Firebase:** Used for possible hosting user business cards.
 * **Some QR Module:** Not sure what it is yet, but I'm pretty sure that some QR node module exists out there.
 
 ## Component Tree
