@@ -1,15 +1,10 @@
 # PROJECT PLANNING
 ## Overview
-The general idea is that users can use this app as a means of uploading, storing, and viewing their comic books. Simple, right? Seemingly. Though the MVP seems pretty to the point and achievable, the more complex things lay in the stretch goals in trying to provide users with new and interesting ways to read and interact with their comic books.
+Alright, let's try this again. Rather than make a digital comic book platform (for now), the goal has been shifted to create a React Native mobile app that will, essentially, allow users to store their own, and other's, business cards, as well as pass their's along to anyone they desire. No more fuss about carrying physical business cards, or whether or not you have any on you at any given point in time. Ideally, this app will run mostly(if not entirely) off of the local storage of the device with no access to the internet required (outside of the initial download). Also, users of this app should be able to broadcast their business cards to anyone with a device regardless of whether or not they have an app. Also, the user with the app should be able to organize business cards into arbitrary categories or designations (possibly with tagging)
 
 ## Primary Technologies
-* **React:** React.js will handle the front end viewing and UI/UX as well as provide client-side routing for higher performance as images and come and go from view.
-* **PostgreSQL:** SQL-based database that will store user information and comic books.
-* **Ruby:**  Any extensive back end logic will be handled by Ruby. Also may be used to create an API to communicate between the database and the front end.
-### Potential Technologies
-* **React360:** Potential UI/UX stretch goal library that will allow the pages to be rendered on a semi-panoramic surface.
-* **Firebase:** Realtime database and potential alternative to PostgreSQL.
-* **A-Frame:** HTML-based VR/3D object rendering library.
+* **React Native:** The primary library for creating this mobile app.
+* **Some QR Module:** Not sure what it is yet, but I'm pretty sure that some QR node module exists out there.
 
 ## Component Tree
 ![alt text](./assets/img/component_tree.jpg)
