@@ -19,11 +19,12 @@ Alright, let's try this again. Rather than make a digital comic book platform (f
 * **NEW CARD:** Add new user card to local storage and User/Cards component list.
 * **CARD:** Displays complete info for individual contact or user card.
 * **EDIT CARD:** Allows the user to edit card info or delete existing cards.
-* **QR CODE:** Allows user card to be scanned by other devices. 
+* **QR CODE:** Allows user card to be scanned by other devices.
 
 
 ## Resources
 * **Chart Making:** https://www.draw.io/
 * **React Native Crash Course:** https://www.youtube.com/watch?v=qSRrxpdMpVc
+* **QR Code Info:** http://qrcode.meetheed.com/index.php
 * **react-native-qrcode(node package):** https://www.npmjs.com/package/react-native-qrcode
 * **react-native-qrcode-svg(node package):** https://www.npmjs.com/package/react-native-qrcode-svg
