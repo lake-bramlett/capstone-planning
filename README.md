@@ -4,6 +4,7 @@ Alright, let's try this again. Rather than make a digital comic book platform (f
 
 ## Primary Technologies
 * **React Native:** The primary library for creating this mobile app.
+* **React:** Possible use for prototyping outside of mobile environment.
 * **Some QR Module:** Not sure what it is yet, but I'm pretty sure that some QR node module exists out there.
 
 ## Component Tree
@@ -11,16 +12,9 @@ Alright, let's try this again. Rather than make a digital comic book platform (f
 
 ### Component Breakdown
 * **App:** Single common parent/ancestor for the entire application. Will hold state or Redux store and handle routing.
-* **Public:** Contains all public-facing comics and data for viewing and use without user login or specific user privileges.
-* **User:** Contains all user-oriented comics and data for viewing only by specified user.
-* **Comic List:** Contains all data/comics for reading
-* **Comic Preview:** A card previewing the comic's cover and relevant information (name, issue, etc.)
-* **Comic:** The rendered images/pages of the comic for viewing.
 
 ## Resources
 * **Chart Making:** https://www.draw.io/
-* **A-Frame:** https://aframe.io/
-* **React 360:** https://medium.com/better-programming/exploring-react-360-vr-library-7260d51dc776
-* **React/PostgreSQL Tutorial:** https://www.youtube.com/watch?v=2oAS7MtMwqA
-* **Comic Book Archive file type (.cbr, .cbz):** https://en.wikipedia.org/wiki/Comic_book_archive
-* **Connecting Ruby to React:** https://medium.com/quick-code/simple-rails-crud-app-with-react-frontend-using-react-rails-gem-b708b89a9419
+* **React Native Crash Course:** https://www.youtube.com/watch?v=qSRrxpdMpVc
+* **react-native-qrcode(node package):** https://www.npmjs.com/package/react-native-qrcode
+* **react-native-qrcode-svg(node package):** https://www.npmjs.com/package/react-native-qrcode-svg
